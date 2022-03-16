@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: untitled
+title: Augustus Thomas' Blog
 email: augustusrthomas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   my corner of the internet, where i post ideas about the things i enjoy and document
@@ -29,7 +29,7 @@ twitter_username: realgusthomas
 github_username:  augustus-thomas
 
 # Build settings
-theme: minima
+theme: Vonge
 plugins:
   - jekyll-feed
 
