@@ -17,14 +17,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Augustus Thomas' Blog
 email: augustusrthomas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   my corner of the internet, where i post ideas about the things i enjoy and document
   my curiosity
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://augustus-thomas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: realgusthomas
 github_username:  augustus-thomas
 
@@ -33,6 +32,33 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+navbar-links:
+  About Me/FAQ: "aboutme"
+  writing: "writing"
+  blogs: "blogs"
+  
+avatar: ""
+
+timezone: "Chicago"
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
