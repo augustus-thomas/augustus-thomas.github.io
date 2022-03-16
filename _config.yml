@@ -29,9 +29,9 @@ twitter_username: realgusthomas
 github_username:  augustus-thomas
 
 # Build settings
-theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
