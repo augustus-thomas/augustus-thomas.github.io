@@ -29,7 +29,7 @@ twitter_username: realgusthomas
 github_username:  augustus-thomas
 
 # Build settings
-theme: beautiful-jekyll
+theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
 
