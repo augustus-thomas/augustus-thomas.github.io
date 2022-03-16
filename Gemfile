@@ -10,7 +10,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
-gem "beautiful-jekyll"
+gem 'beautiful-jekyll-theme', '~> 5.0'
 gem "github-pages", '163', group: :jekyll_plugins
 gem 'jekyll-paginate'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
