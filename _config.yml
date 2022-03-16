@@ -41,11 +41,11 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- include:
+#exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-    - Gemfile
+#   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
